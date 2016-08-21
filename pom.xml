@@ -15,6 +15,15 @@
           <target>1.8</target>
         </configuration>
       </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>1.5.0</version>
+          <configuration>
+            <executable>java</executable>
+            <mainClass>ch72.net.App</mainClass>
+          </configuration>
+      </plugin>
     </plugins>
   </build>
   <packaging>jar</packaging>
